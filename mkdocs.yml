@@ -1,0 +1,58 @@
+site_name: HZCU-学生宝典
+site_description: HZCU-学生宝典
+site_author: HZCU
+site_url: http://127.0.0.1:8001/
+
+copyright: HZCU-学生宝典
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+  font: false
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - search:
+      lang:
+        - zh
+  - minify:
+      minify_html: true
+  - open-in-new-tab:
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 首页: index.md

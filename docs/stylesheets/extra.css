@@ -1,0 +1,10 @@
+/* Use local system fonts so the initial page does not depend on font services. */
+:root {
+  --md-text-font: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --md-code-font: "SFMono-Regular", Consolas, monospace;
+}
+
+/* Keep the empty home page spacious until real content is added. */
+.md-content__inner {
+  min-height: 60vh;
+}

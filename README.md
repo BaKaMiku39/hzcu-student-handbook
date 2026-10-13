@@ -15,7 +15,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 ## 编辑与构建
 
-- 正文在 `docs/`，当前仅保留首页标题。
+- 正文在 `docs/`，当前已添加栏目和学年入口，各页面仅保留标题，未填充正文。
 - 网站名、导航、主题、插件配置在 `mkdocs.yml`。
 - 自定义样式在 `docs/stylesheets/extra.css`。
 - 新页面可以在需要时添加到 `docs/`，再登记到 `nav`。

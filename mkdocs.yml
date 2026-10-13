@@ -55,4 +55,17 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - 首页: index.md
+  - 首页 · 前言: index.md
+  - 前沿科技论文: papers.md
+  - 优质 GitHub 仓库介绍: repositories.md
+  - 地图 · 拍照: map.md
+  - 食堂: dining.md
+  - 校园风景: scenery.md
+  - 学期安排: semester.md
+  - 培养方案详解:
+      - 学年总览: curriculum/index.md
+      - 大一: curriculum/year-1.md
+      - 大二: curriculum/year-2.md
+      - 大三: curriculum/year-3.md
+      - 大四: curriculum/year-4.md
+  - 轻首页: start.md

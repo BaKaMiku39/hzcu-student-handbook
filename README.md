@@ -20,7 +20,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 - 自定义样式在 `docs/stylesheets/extra.css`。
 - 新页面可以在需要时添加到 `docs/`，再登记到 `nav`。
 - `.venv/bin/mkdocs build` 生成 `site/`，该目录可以部署到静态网站托管服务。
-- 在线访问：https://greyjohnny.github.io/hzcu-student-handbook/
+- 在线访问：https://hzcu-pc.github.io/hzcu-student-handbook/
 - 推送到 `main` 后，GitHub Actions 自动构建并发布到 GitHub Pages。
 - 自动发布配置在 `.github/workflows/pages.yml`，构建失败时查看 Actions 日志。
 

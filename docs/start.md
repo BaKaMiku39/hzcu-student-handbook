@@ -165,7 +165,7 @@
 <li><a href="https://wenku.baidu.com/" target="_blank" rel="noopener">百度文库</a></li>
 <li><a href="https://xiumi.us/" target="_blank" rel="noopener">秀米</a></li>
 <li><a href="https://www.wolframalpha.com/" target="_blank" rel="noopener">Wolfram</a></li>
-<li><a href="https://webdemo.myscript.com/" target="_blank" rel="noopener">Myscript</a></li>
+<li><a href="https://simpletex.cn/" target="_blank" rel="noopener" title="手写/截图识别数学公式，转 LaTeX（原 MyScript 网页版已失效，改为 SimpleTex）">公式识别</a></li>
 <li><a href="https://www.geogebra.org/" target="_blank" rel="noopener">Geogebra</a></li>
 <li><a href="https://www.wjx.cn/" target="_blank" rel="noopener">问卷星</a></li>
 <li><a href="https://snapany.com/zh/bilibili" target="_blank" rel="noopener">视频下载</a></li>
